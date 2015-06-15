@@ -132,7 +132,7 @@ fi
 # caddy
 #
 CADDY_VER="0.7.1"
-CADDY_CUR_VER="$(caddy --version | cut -d ' ' -f2 2>/dev/null)"
+CADDY_CUR_VER="$(caddy --version 2>/dev/null | cut -d ' ' -f2)"
 if [ -n "${CADDY_CUR_VER}" ]; then
 # caddy of some version is already installed
   echo "Backing up $(which caddy) as $(which caddy).${CADDY_CUR_VER}"
