@@ -3,7 +3,7 @@
 A script to install caddy server.
 
 Install
-#######
+=======
 
 On OS X and most *nixes
 
@@ -18,7 +18,7 @@ wget -nv bit.ly/caddy -O - | bash
 ```
 
 Run
-###
+===
 
 If you want to quickly share a file with a friend or do some web development over http (don't worry, https forthcoming)
 
