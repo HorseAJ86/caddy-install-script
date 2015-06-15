@@ -8,13 +8,13 @@ Install
 On OS X and most *nixes
 
 ```bash
-curl -fsSL bit.ly/caddy | bash
+curl -fsSL bit.ly/install-caddy | bash
 ```
 
 On Ubuntu and minimal *nix installations
 
 ```bash
-wget -nv bit.ly/caddy -O - | bash
+wget -nv bit.ly/install-caddy -O - | bash
 ```
 
 Run
