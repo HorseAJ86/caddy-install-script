@@ -179,6 +179,15 @@ if [ -n "${CADDY_VER}" ]; then
   #sudo chown -R $(whoami) /usr/local/
   echo "sudo mv /tmp/caddy /usr/local/bin/caddy"
   sudo mv /tmp/caddy /usr/local/bin/caddy
+  
+  # caddy-browse helper
+  sudo rm -rf /tmp/caddy-browse
+  cat <<< '#!/bin/bash
+echo "0.0.0.0
+browse" | caddy' > /tmp/caddy-browse
+  chmod a+x /tmp/caddy-browse
+  sudo mv /tmp/caddy-browse /usr/local/bin/
+  # end caddy-browse
 fi
 
 echo ""
