@@ -1,3 +1,7 @@
+# THESE AREN'T THE SCRIPTS YOU'RE LOOKING FOR
+
+This is left only for historical purposes. The updated scripts are at <https://getcaddy.com>
+
 # caddy-install-script
 
 A script to install caddy server.
